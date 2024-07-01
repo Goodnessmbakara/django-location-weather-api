@@ -1,7 +1,9 @@
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from django.http import HttpRequest
 import requests
+from django.conf import settings
+from django.http import HttpRequest
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
 
 class HelloView(APIView):
     def get(self, request: HttpRequest):
