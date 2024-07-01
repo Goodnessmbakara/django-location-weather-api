@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'HEPWUIRTB942830998043902-39')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://django-location-weather-api.onrender.com', '*']
 
 
 # Application definition
